@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дмитрий Инкипаев](https://up.htmlacademy.ru/adaptive/18/user/593635).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Колесников](https://htmlacademy.ru/profile/m1roku).
 
 ---
 
