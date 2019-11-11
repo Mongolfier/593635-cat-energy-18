@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Кэт энерджи</title>
+  </head>
+  <body>
+
+    <header class="page-header">
+      <nav class="menu-nav">
+
+        <a href="#" class="page-header__logo">
+          <img width="33" height="38" alt="Логотип фирмы 'Кэт энерджи' лисичка" src="https://via.placeholder.com/33x38">
+        </a>
+        <a href="#" class="page-header__title">
+          <img width="101" height="18" alt="Надпись 'Cat Energy'" src="https://via.placeholder.com/101x18">
+        </a>
+        <button class="page-header__btn-toggle-menu">
+          <img width="18" height="18" alt="Кнопка открытия меню" src="https://via.placeholder.com/18x18">
+        </button>
+
+        <ul class="toggled-menu">
+          <li class="toggled-menu__item">
+            <a href="#">главная</a>
+          </li>
+
+          <li class="toggled-menu__item">
+            <a href="#">каталог продукции</a>
+          </li>
+
+          <li class="toggled-menu__item">
+            <a href="#">подбор программы</a>
+          </li>
+        </ul>
+
+      </nav>
+    </header>
+
+    <main>
+      <form action="https://echo.htmlacademy.ru">
+        <h1>Подбор программы</h1>
+        <p>заполните анкету и мы подберем программу питания для вашего кота</p>
+
+        <label for="name-cat">имя:*</label>
+        <input id="name-cat" type="text" name="name-cat" required>
+
+        <label for="weight">вес (кг):*</label>
+        <input id="weight" type="number" name="weight" required>
+
+        <label for="age">возраст (лет):</label>
+        <input id="age" type="number" name="age">
+
+        <label for="minus-weight">похудение</label>
+        <input id="minus-weight" type="radio" name="program-selection" checked>
+
+        <label for="plus-weight">набор массы</label>
+        <input id="plus-weight" type="radio" name="program-selection">
+
+        <label for="dont-know">не знаю (нужен ваш совет)</label>
+        <input id="dont-know" type="radio" name="program-selection">
+
+        <h2>Контактные данные (владельца кота)</h2>
+
+        <label for="email">e-mail:*</label>
+        <input id="email" type="email" name="email" placeholder="KUKLACHEV@GMAIL.COM" required>
+
+        <label for="phone">телефон:*</label>
+        <input type="tel" name="phone">
+
+        <h2>Комментарий</h2>
+        <textarea placeholder="РАССКАЖИТЕ ОБО ВСЕХ ПОВАДКАХ КОТА"></textarea>
+
+        <h2>Дополнительно</h2>
+
+        <label for="sweetener">сахарозаменитель</label>
+        <input id="sweetener" type="checkbox" name="extra" checked>
+
+        <label for="water">питьевая вода</label>
+        <input id="water" type="checkbox" name="extra">
+
+        <label for="milk">молоко</label>
+        <input id="milk" type="checkbox" name="extra">
+
+        <label for="vitamins">витамины</label>
+        <input id="vitamins" type="checkbox" name="extra">
+
+        <input type="submit" value="отправить заявку" name="submit">
+
+        <p>* &mdash; Обзятельные поля</p>
+      </form>
+
+      <section class="contacts">
+        <h2>приглашаем к сотрудничеству дилеров!</h2>
+        <address>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+
+        <iframe src="https://yandex.ru/map-widget/v1/-/CGTy4-z7" width="560" height="400" frameborder="0" allowfullscreen="true"></iframe>
+      </section>
+
+    </main>
+
+    <footer>
+      <img class="page-footer__logo" width="128" height="24" alt="Логотип компании Cat Energy" src="https://via.placeholder.com/128x24">
+      <ul class="socials-list">
+        <li class="socials-list__item">
+          <a href="#">
+            <img width="22" height="12" alt="Cat Energy во ВКонтакте" src="https://via.placeholder.com/22x12">
+          </a>
+        </li>
+        <li class="socials-list__item">
+          <a href="#">
+            <img width="16" height="16" alt="Cat Energy в Instagram" src="https://via.placeholder.com/16x16">
+          </a>
+        </li>
+        <li class="socials-list__item">
+          <a href="#">
+            <img width="10" height="19" alt="Cat Energy в Facebook" src="https://via.placeholder.com/10x19">
+          </a>
+        </li>
+      </ul>
+
+      <a href="#">html academy</a>
+    </footer>
+  </body>
+  </html>
